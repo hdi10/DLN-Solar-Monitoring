@@ -7,8 +7,8 @@
 #include <ESPAsyncWebServer.h>
  
 // Network
-const char* ssid = "Okily_Dokily";
-const char* password = "Diablo0704..e-H!88";
+const char* ssid = "******";
+const char* password = "*******";
 
 // AsyncWebServer object on port 80
 AsyncWebServer server(80);
