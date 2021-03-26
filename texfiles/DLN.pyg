@@ -1,0 +1,11 @@
+String readVoltage() {
+  return String(spannungsmessung());
+}
+
+String readCurrent() {
+  return String(strommessung());
+}
+
+String calculatePower() {
+  return String(leistungsBerechnung());
+}
