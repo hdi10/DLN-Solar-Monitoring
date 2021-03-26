@@ -1,0 +1,2006 @@
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.3.26)  26 MAR 2021 15:11
+ restricted system commands enabled.
+**DLN.tex
+(./DLN.tex
+LaTeX2e <2020-02-02> patch level 2
+Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
+Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2020-02-02 2.70 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-02-02 2.70 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2020-02-02 3.12 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-02-02 3.12 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2020-02-02 3.12 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is /home/hdi10/.texlive2019/texmf-var/l
+uatex-cache/generic-dev/names.
+luaotfload | init : Loading fontloader “fontloader-2020-01-26.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2020-01-26.lua”.
+Lua-only attribute luaotfload@state = 2
+Lua-only attribute luaotfload@noligature = 3
+Lua-only attribute luaotfload@syllabe = 4
+luaotfload | init : Context OpenType loader version “3.11”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2020-02-02 3.12 luaotfload submodule / callback h
+andling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2020-02-02 3.12 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-02-02 3.12 luaotfload submodule / Unicode he
+lpers
+Lua module: luaotfload-colors 2020-02-02 3.12 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 5
+Lua module: luaotfload-resolvers 2020-02-02 3.12 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is /home/hdi10/.texlive2019/texmf-var/l
+uatex-cache/generic-dev/names.
+Lua module: luaotfload-features 2020-02-02 3.12 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-embolden 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-notdef 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2020-02-02 3.12 luaotfload submodule / auxiliar
+y functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-fallback 2020-02-02 3.12 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-02-02 3.12 luaotfload submodule / multis
+cript
+Lua module: luaotfload-script 2020-02-02 3.12 luaotfload submodule / Script help
+ers
+Lua module: luaotfload-tounicode 2020-02-02 3.12 luaotfload submodule / tounicod
+e
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2020-02-14> (./mucproc.cls
+Document Class: mucproc 2018/01/16 v1.25\ conference proceedings for the German 
+MuC-conference
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count163
+\l__pdf_internal_box=\box45
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count164
+\g__xparse_grabber_int=\count165
+\l__xparse_m_args_int=\count166
+\l__xparse_v_nesting_int=\count167
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent b
+asics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2020/01/24 v3.29 KOMA-Script document class (article)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2020/01/24 v3.29 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box46
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
+Class scrartcl Info: File `mucfontsize10pt.clo' used to setup font sizes on inpu
+t line 2212.
+
+(./mucfontsize10pt.clo
+File: mucfontsize10pt.clo 2017/01/30 v1.0 mucproc font size class option (10pt)
+luaotfload | db : Font names database loaded from /home/hdi10/.texlive2019/texmf
+-var/luatex-cache/generic-dev/names/luaotfload-names.luc)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2020/01/24 v3.29 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count168
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 8
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIV departure   = -1%
+(typearea)              \evensidemargin = 39.76274pt
+(typearea)              \oddsidemargin  = 39.76274pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 539.97992pt
+(typearea)              \topmargin      = 0.23714pt
+(typearea)              \headheight     = 15.05624pt
+(typearea)              \headsep        = 18.06749pt
+(typearea)              \topskip        = 10.0pt
+(typearea)              \footskip       = 42.15749pt
+(typearea)              \baselineskip   = 12.045pt
+(typearea)              on input line 1719.
+)
+\c@part=\count169
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@subparagraph=\count174
+\scr@dte@section@maxnumwidth=\skip53
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4723.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4723.
+\scr@dte@part@maxnumwidth=\skip54
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4731.
+\scr@dte@subsection@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4741.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4741.
+\scr@dte@subsubsection@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4751.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4751.
+\scr@dte@paragraph@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4761.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4761.
+\scr@dte@subparagraph@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4771.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4771.
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+\c@pti@nb@sid@b@x=\box47
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6002.
+\scr@dte@figure@maxnumwidth=\skip61
+\c@figure=\count175
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6014.
+\scr@dte@table@maxnumwidth=\skip62
+\c@table=\count176
+Class scrartcl Info: Redefining `\numberline' on input line 6178.
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 117.
+\l@nohyphenation=\language3
+\l@ukenglish=\language4
+\l@ngerman-x-2019-04-04=\language5
+\l@ngerman=\language6
+\l@german=\language7
+\l@usenglishmax=\language8
+\l@german-x-2019-04-04=\language9
+\l@swissgerman=\language10
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthograp
+hy)
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogra
+phy)
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count177
+\U@D=\dimen137
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute6
+))
+Package babel Info: Making " an active character on input line 121.
+
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.
+tex UTF-8 German hyphenation patterns (reformed orthography)
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.
+tex
+German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2019-04-04
+ (WL)))))) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count178
+)
+\csq@reset=\count179
+\csq@gtype=\count180
+\csq@glevel=\count181
+\csq@qlevel=\count182
+\csq@maxlvl=\count183
+\csq@tshold=\count184
+\csq@ltx@everypar=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Option 'babel' depreciated.
+(csquotes)             Using 'autostyle'.
+Package csquotes Info: Enabling multilingual quotes.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen138
+\Gm@wd@mp=\dimen139
+\Gm@odd@mp=\dimen140
+\Gm@even@mp=\dimen141
+\Gm@layoutwidth=\dimen142
+\Gm@layoutheight=\dimen143
+\Gm@layouthoffset=\dimen144
+\Gm@layoutvoffset=\dimen145
+\Gm@dimlist=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count188
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count189
+\c@listtotal=\count190
+\c@listcount=\count191
+\c@liststart=\count192
+\c@liststop=\count193
+\c@citecount=\count194
+\c@citetotal=\count195
+\c@multicitecount=\count196
+\c@multicitetotal=\count197
+\c@instcount=\count198
+\c@maxnames=\count199
+\c@minnames=\count266
+\c@maxitems=\count267
+\c@minitems=\count268
+\c@citecounter=\count269
+\c@maxcitecounter=\count270
+\c@savedcitecounter=\count271
+\c@uniquelist=\count272
+\c@uniquename=\count273
+\c@refsection=\count274
+\c@refsegment=\count275
+\c@maxextratitle=\count276
+\c@maxextratitleyear=\count277
+\c@maxextraname=\count278
+\c@maxextradate=\count279
+\c@maxextraalpha=\count280
+\c@abbrvpenalty=\count281
+\c@highnamepenalty=\count282
+\c@lownamepenalty=\count283
+\c@maxparens=\count284
+\c@parenlevel=\count285
+\blx@tempcnta=\count286
+\blx@tempcntb=\count287
+\blx@tempcntc=\count288
+\blx@maxsection=\count289
+\blx@maxsegment@0=\count290
+\blx@notetype=\count291
+\blx@parenlevel@text=\count292
+\blx@parenlevel@foot=\count293
+\blx@sectionciteorder@0=\count294
+\blx@entrysetcounter=\count295
+\labelnumberwidth=\skip63
+\labelalphawidth=\skip64
+\biblabelsep=\skip65
+\bibitemsep=\skip66
+\bibnamesep=\skip67
+\bibinitsep=\skip68
+\bibparsep=\skip69
+\bibhang=\skip70
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language11
+\c@mincomprange=\count296
+\c@maxcomprange=\count297
+\c@mincompwidth=\count298
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'authoryear-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex bibstyle data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2020/02/01 v9.5 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count299
+\c@savedafterword=\count300
+\c@annotator=\count301
+\c@savedannotator=\count302
+\c@author=\count303
+\c@savedauthor=\count304
+\c@bookauthor=\count305
+\c@savedbookauthor=\count306
+\c@commentator=\count307
+\c@savedcommentator=\count308
+\c@editor=\count309
+\c@savededitor=\count310
+\c@editora=\count311
+\c@savededitora=\count312
+\c@editorb=\count313
+\c@savededitorb=\count314
+\c@editorc=\count315
+\c@savededitorc=\count316
+\c@foreword=\count317
+\c@savedforeword=\count318
+\c@holder=\count319
+\c@savedholder=\count320
+\c@introduction=\count321
+\c@savedintroduction=\count322
+\c@namea=\count323
+\c@savednamea=\count324
+\c@nameb=\count325
+\c@savednameb=\count326
+\c@namec=\count327
+\c@savednamec=\count328
+\c@translator=\count329
+\c@savedtranslator=\count330
+\c@shortauthor=\count331
+\c@savedshortauthor=\count332
+\c@shorteditor=\count333
+\c@savedshorteditor=\count334
+\c@groupauthor=\count335
+\c@savedgroupauthor=\count336
+\c@narrator=\count337
+\c@savednarrator=\count338
+\c@execproducer=\count339
+\c@savedexecproducer=\count340
+\c@execdirector=\count341
+\c@savedexecdirector=\count342
+\c@with=\count343
+\c@savedwith=\count344
+\c@labelname=\count345
+\c@savedlabelname=\count346
+\c@institution=\count347
+\c@savedinstitution=\count348
+\c@lista=\count349
+\c@savedlista=\count350
+\c@listb=\count351
+\c@savedlistb=\count352
+\c@listc=\count353
+\c@savedlistc=\count354
+\c@listd=\count355
+\c@savedlistd=\count356
+\c@liste=\count357
+\c@savedliste=\count358
+\c@listf=\count359
+\c@savedlistf=\count360
+\c@location=\count361
+\c@savedlocation=\count362
+\c@organization=\count363
+\c@savedorganization=\count364
+\c@origlocation=\count365
+\c@savedoriglocation=\count366
+\c@origpublisher=\count367
+\c@savedorigpublisher=\count368
+\c@publisher=\count369
+\c@savedpublisher=\count370
+\c@language=\count371
+\c@savedlanguage=\count372
+\c@origlanguage=\count373
+\c@savedoriglanguage=\count374
+\c@citation=\count375
+\c@savedcitation=\count376
+\c@pageref=\count377
+\c@savedpageref=\count378
+\shorthandwidth=\skip71
+\shortjournalwidth=\skip72
+\shortserieswidth=\skip73
+\shorttitlewidth=\skip74
+\shortauthorwidth=\skip75
+\shorteditorwidth=\skip76
+\locallabelnumberwidth=\skip77
+\locallabelalphawidth=\skip78
+\localshorthandwidth=\skip79
+\localshortjournalwidth=\skip80
+\localshortserieswidth=\skip81
+\localshorttitlewidth=\skip82
+\localshortauthorwidth=\skip83
+\localshorteditorwidth=\skip84
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count379
+\c@textcitetotal=\count380
+\c@textcitemaxnames=\count381
+\c@biburlbigbreakpenalty=\count382
+\c@biburlbreakpenalty=\count383
+\c@biburlnumpenalty=\count384
+\c@biburlucpenalty=\count385
+\c@biburllcpenalty=\count386
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count387
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2020/02/01 v9.5 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count388
+\c@bbx:relatedtotal=\count389
+))
+Package biblatex Info: Trying to load citation style 'authoryear-comp'...
+Package biblatex Info: ... file 'authoryear-comp.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
+File: authoryear-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/03 2.7h Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count390
+\l__fontspec_language_int=\count391
+\l__fontspec_strnum_int=\count392
+\l__fontspec_tmp_int=\count393
+\l__fontspec_tmpa_int=\count394
+\l__fontspec_tmpb_int=\count395
+\l__fontspec_tmpc_int=\count396
+\l__fontspec_em_int=\count397
+\l__fontspec_emdef_int=\count398
+\l__fontspec_strong_int=\count399
+\l__fontspec_strongdef_int=\count400
+\l__fontspec_tmpa_dim=\dimen146
+\l__fontspec_tmpb_dim=\dimen147
+\l__fontspec_tmpc_dim=\dimen148
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | cache : Lookup cache loaded from /home/hdi10/.texlive2019/texmf-var
+/luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: "Font Times N
+ew Roman not found.".
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112
+.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
+LaTeX Info: Redefining \not on input line 1043.
+)
+
+Package mucproc Info: The mucproc class won't create PDF/A-mode.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2020/01/24 v3.29 KOMA-Script package (end user interfa
+ce for scrlayer)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2020/01/24 v3.29 KOMA-Script package (defining layers and page
+ styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 109.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2106
+.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1244.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1271.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count401
+\calc@Bcount=\count402
+\calc@Adimen=\dimen149
+\calc@Bdimen=\dimen150
+\calc@Askip=\skip85
+\calc@Bskip=\skip86
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count403
+\calc@Cskip=\skip87
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen151
+\AM@pageheight=\dimen152
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def
+File: ppluatex.def 2020/01/28 v0.5q Pdfpages driver for LuaTeX (AM)
+)
+\AM@pagebox=\box48
+\AM@global@opts=\toks18
+\AM@pagecnt=\count404
+\AM@toc@title=\toks19
+\c@AM@survey=\count405
+\AM@templatesizebox=\box49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+txr on input line 112
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
+File: t1txr.fd 2000/12/15 v3.1
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/txr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/txmi/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/bx/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/txsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/bx/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/txex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/bx/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup10
+LaTeX Font Info:    Redeclaring symbol font `italic' on input line 33.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `normal'
+(Font)                  OT1/txr/m/it --> OT1/ptm/m/it on input line 33.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/bx/it --> OT1/ptm/m/it on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/txr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/txr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen153
+\lightrulewidth=\dimen154
+\cmidrulewidth=\dimen155
+\belowrulesep=\dimen156
+\belowbottomsep=\dimen157
+\aboverulesep=\dimen158
+\abovetopsep=\dimen159
+\cmidrulesep=\dimen160
+\cmidrulekern=\dimen161
+\defaultaddspace=\dimen162
+\@cmidla=\count406
+\@cmidlb=\count407
+\@aboverulesep=\dimen163
+\@belowrulesep=\dimen164
+\@thisruleclass=\count408
+\@lastruleclass=\count409
+\@thisrulewidth=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen166
+\ar@mcellbox=\box50
+\extrarowheight=\dimen167
+\NC@list=\toks22
+\extratabsurround=\skip88
+\backup@length=\skip89
+\ar@cellbox=\box51
+)
+\TX@col@width=\dimen168
+\TX@old@table=\dimen169
+\TX@old@col=\dimen170
+\TX@target=\dimen171
+\TX@delta=\dimen172
+\TX@cols=\count410
+\TX@ftn=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: KOMA-Script document class detected.
+)
+Package caption Info: KOMA-Script document class.
+\c@caption@flags=\count411
+\c@continuedfloat=\count412
+)
+\c@KVtest=\count413
+\sf@farskip=\skip90
+\sf@captopadj=\dimen180
+\sf@capskip=\skip91
+\sf@nearskip=\skip92
+\c@subfigure=\count414
+\c@subfigure@save=\count415
+\c@lofdepth=\count416
+\c@subtable=\count417
+\c@subtable@save=\count418
+\c@lotdepth=\count419
+\sf@top=\skip93
+\sf@bottom=\skip94
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count420
+\lst@gtempboxa=\box52
+\lst@token=\toks24
+\lst@length=\count421
+\lst@currlwidth=\dimen181
+\lst@column=\count422
+\lst@pos=\count423
+\lst@lostspace=\dimen182
+\lst@width=\dimen183
+\lst@newlines=\count424
+\lst@lineno=\count425
+\lst@maxwidth=\dimen184
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count426
+\lst@skipnumbers=\count427
+\lst@framebox=\box53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks25
+\verbatim@line=\toks26
+\verbatim@in@stream=\read4
+)
+
+Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 78.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+(./DLN.aux)
+\openout1 = DLN.aux
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 78.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 7
+8.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 7
+8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 78
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 7
+8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 78
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 78.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count428
+\scratchdimen=\dimen185
+\scratchbox=\box54
+\nofMPsegments=\count429
+\nofMParguments=\count430
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count431
+\MPscratchDim=\dimen186
+\MPnumerator=\count432
+\makeMPintoPDFobject=\count433
+\everyMPtoPDFconversion=\toks28
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(108.12054pt, 375.57631pt, 113.81102pt)
+* v-part:(T,H,B)=(136.5733pt, 546.29292pt, 162.18062pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=375.57631pt
+* \textheight=546.29292pt
+* \oddsidemargin=35.85056pt
+* \evensidemargin=35.85056pt
+* \topmargin=35.85057pt
+* \headheight=12.045pt
+* \headsep=16.40775pt
+* \topskip=10.0pt
+* \footskip=42.15749pt
+* \marginparwidth=74.68849pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'ngerman' -> 'ngerman-apa'...
+Package biblatex Info: ... file 'ngerman-apa.lbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/ngerman-apa.lbx
+File: ngerman-apa.lbx 2020/02/01 v9.5 APA biblatex localisation
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
+Package biblatex Info: ... file 'german-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/german-apa.lbx
+File: german-apa.lbx 2020/02/01 v9.5 APA biblatex localisation
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
+Package biblatex Info: ... file 'german-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/german-apa.lbx
+File: german-apa.lbx 2020/02/01 v9.5 APA biblatex localisation
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+))))
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout3 = DLN.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'DLN.bbl' found.
+ (./DLN.bbl)
+Package biblatex Info: Reference section=0 on input line 78.
+Package biblatex Info: Reference segment=0 on input line 78.
+Package scrbase Info: activating ngerman \refname on input line 78.
+\AtBeginShipoutBox=\box55
+ (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+\big@size=\dimen187
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count434
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 83.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 
+83.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 
+83.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 
+83.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 
+83.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 83
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 83
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 83
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 83
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 83
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.045> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.91336> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.22707> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 83
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<Bilder/Dokubilder/Batterie.jpg, id=10, 4047.12pt x 3035.34pt>
+File: Bilder/Dokubilder/Batterie.jpg Graphic file (type jpg)
+<use Bilder/Dokubilder/Batterie.jpg>
+Package luatex.def Info: Bilder/Dokubilder/Batterie.jpg  used on input line 105.
+
+(luatex.def)             Requested size: 169.00818pt x 126.71921pt.
+<Bilder/Dokubilder/Controller.jpg, id=11, 4047.12pt x 3035.34pt>
+File: Bilder/Dokubilder/Controller.jpg Graphic file (type jpg)
+<use Bilder/Dokubilder/Controller.jpg>
+Package luatex.def Info: Bilder/Dokubilder/Controller.jpg  used on input line 10
+6.
+(luatex.def)             Requested size: 169.00818pt x 126.71921pt.
+<Bilder/Dokubilder/PVKlein.jpg, id=12, 5203.44pt x 3468.96pt>
+File: Bilder/Dokubilder/PVKlein.jpg Graphic file (type jpg)
+<use Bilder/Dokubilder/PVKlein.jpg>
+Package luatex.def Info: Bilder/Dokubilder/PVKlein.jpg  used on input line 107.
+(luatex.def)             Requested size: 169.00818pt x 112.63928pt.
+<Bilder/Dokubilder/MonitoringZerlegt.JPG, id=13, 5203.44pt x 3468.96pt>
+File: Bilder/Dokubilder/MonitoringZerlegt.JPG Graphic file (type jpg)
+<use Bilder/Dokubilder/MonitoringZerlegt.JPG>
+Package luatex.def Info: Bilder/Dokubilder/MonitoringZerlegt.JPG  used on input 
+line 117.
+(luatex.def)             Requested size: 375.57631pt x 250.36835pt.
+ [2<./Bilder/Dokubilder/Batterie.jpg><./Bilder/Dokubilder/Controller.jpg><./Bild
+er/Dokubilder/PVKlein.JPG>]
+<Bilder/Schaltbilder/SchaltungAnlage.png, id=17, 856.95653pt x 756.69261pt>
+File: Bilder/Schaltbilder/SchaltungAnlage.png Graphic file (type png)
+<use Bilder/Schaltbilder/SchaltungAnlage.png>
+Package luatex.def Info: Bilder/Schaltbilder/SchaltungAnlage.png  used on input 
+line 135.
+(luatex.def)             Requested size: 278.40295pt x 245.82982pt.
+<Bilder/Schaltbilder/SchaltungOhneBatterieMessung.png, id=18, 788.4pt x 696.42pt
+>
+File: Bilder/Schaltbilder/SchaltungOhneBatterieMessung.png Graphic file (type pn
+g)
+<use Bilder/Schaltbilder/SchaltungOhneBatterieMessung.png>
+Package luatex.def Info: Bilder/Schaltbilder/SchaltungOhneBatterieMessung.png  u
+sed on input line 144.
+(luatex.def)             Requested size: 278.302pt x 245.83345pt.
+ [3<./Bilder/Dokubilder/MonitoringZerlegt.JPG>] [4<./Bilder/Schaltbilder/Schaltu
+ngAnlage.png><./Bilder/Schaltbilder/SchaltungOhneBatterieMessung.png>]
+<Bilder/Schaltbilder/Monitoring_Schaltung.png, id=27, 1582.55475pt x 1397.92336p
+t>
+File: Bilder/Schaltbilder/Monitoring_Schaltung.png Graphic file (type png)
+<use Bilder/Schaltbilder/Monitoring_Schaltung.png>
+Package luatex.def Info: Bilder/Schaltbilder/Monitoring_Schaltung.png  used on i
+nput line 155.
+(luatex.def)             Requested size: 375.57631pt x 331.75429pt.
+ [5<./Bilder/Schaltbilder/Monitoring_Schaltung.png>] [6]
+<Bilder/Dokubilder/voltageSensorSpannungsteiler.jpg, id=35, 225.84375pt x 204.01
+219pt>
+File: Bilder/Dokubilder/voltageSensorSpannungsteiler.jpg Graphic file (type jpg)
+
+<use Bilder/Dokubilder/voltageSensorSpannungsteiler.jpg>
+Package luatex.def Info: Bilder/Dokubilder/voltageSensorSpannungsteiler.jpg  use
+d on input line 251.
+(luatex.def)             Requested size: 112.92159pt x 102.00584pt.
+ [7<./Bilder/Dokubilder/voltageSensorSpannungsteiler.jpg>]
+<Bilder/Dokubilder/esp32.png, id=40, 1301.86375pt x 922.44624pt>
+File: Bilder/Dokubilder/esp32.png Graphic file (type png)
+<use Bilder/Dokubilder/esp32.png>
+Package luatex.def Info: Bilder/Dokubilder/esp32.png  used on input line 280.
+(luatex.def)             Requested size: 390.56213pt x 276.73601pt.
+
+Overfull \hbox (14.98582pt too wide) in paragraph at lines 280--281
+ [][] 
+
+\hbox(276.73601+0.0)x375.57631, direction TLT
+.\glue(\leftskip) 0.0 plus 1.0fil
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\hbox(276.73601+0.0)x390.56213, direction TLT
+..\hbox(276.73601+0.0)x390.56213, direction TLT
+...\hbox(276.73668+0.0)x390.5631, direction TLT
+....\hbox(276.73668+0.0)x390.5631, direction TLT
+.....\hbox(276.73668+0.0)x0.0, direction TLT
+......\pdfsave
+......\pdfsetmatrix{.3 0 0 .3}
+......\hbox(922.44624+0.0)x0.0, glue set - 1301.86377fil, direction TLT
+.......\hbox(922.44624+0.0)x1301.86375, direction TLT
+........\image(922.44624+0.0)x1301.86375
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfrestore
+.....\kern390.5631
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.\penalty 10000
+.\glue(\parfillskip) 0.0
+.\glue(\rightskip) 0.0 plus 1.0fil
+
+[8<./Bilder/Dokubilder/esp32.png>]
+<Bilder/Dokubilder/WebServer.png, id=46, 545.03625pt x 305.64188pt>
+File: Bilder/Dokubilder/WebServer.png Graphic file (type png)
+<use Bilder/Dokubilder/WebServer.png>
+Package luatex.def Info: Bilder/Dokubilder/WebServer.png  used on input line 359
+.
+(luatex.def)             Requested size: 375.57631pt x 210.61328pt.
+ [9] [10<./Bilder/Dokubilder/WebServer.png>]
+[11]
+Overfull \hbox (2.42259pt too wide) in paragraph at lines 528--528
+[]                    \T1/txtt/m/n/10 chartT.series[0].addPoint([x, y], true, t
+rue, true);[] 
+
+\hbox(6.76+1.67)x375.57631, direction TLT
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 c
+.\T1/txtt/m/n/10 h
+.\T1/txtt/m/n/10 a
+.\T1/txtt/m/n/10 r
+.\T1/txtt/m/n/10 t
+.\T1/txtt/m/n/10 T
+.\T1/txtt/m/n/10 .
+.\T1/txtt/m/n/10 s
+.\T1/txtt/m/n/10 e
+.\T1/txtt/m/n/10 r
+.\T1/txtt/m/n/10 i
+.\T1/txtt/m/n/10 e
+.\T1/txtt/m/n/10 s
+.\T1/txtt/m/n/10 [
+.\T1/txtt/m/n/10 0
+.\T1/txtt/m/n/10 ]
+.\T1/txtt/m/n/10 .
+.\T1/txtt/m/n/10 a
+.\T1/txtt/m/n/10 d
+.\T1/txtt/m/n/10 d
+.\T1/txtt/m/n/10 P
+.\T1/txtt/m/n/10 o
+.\T1/txtt/m/n/10 i
+.\T1/txtt/m/n/10 n
+.\T1/txtt/m/n/10 t
+.\T1/txtt/m/n/10 (
+.\T1/txtt/m/n/10 [
+.\T1/txtt/m/n/10 x
+.\kern0.0
+.\T1/txtt/m/n/10 ,
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 y
+.\T1/txtt/m/n/10 ]
+.\kern0.0
+.\T1/txtt/m/n/10 ,
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 t
+.\T1/txtt/m/n/10 r
+.\T1/txtt/m/n/10 u
+.\T1/txtt/m/n/10 e
+.\kern0.0
+.\T1/txtt/m/n/10 ,
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 t
+.\T1/txtt/m/n/10 r
+.\T1/txtt/m/n/10 u
+.\T1/txtt/m/n/10 e
+.\kern0.0
+.\T1/txtt/m/n/10 ,
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 t
+.\T1/txtt/m/n/10 r
+.\T1/txtt/m/n/10 u
+.\T1/txtt/m/n/10 e
+.\T1/txtt/m/n/10 )
+.\T1/txtt/m/n/10 ;
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (7.67258pt too wide) in paragraph at lines 530--530
+[]                    \T1/txtt/m/n/10 chartT.series[0].addPoint([x, y], true, f
+alse, true);[] 
+
+\hbox(6.76+1.67)x375.57631, direction TLT
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 c
+.\T1/txtt/m/n/10 h
+.\T1/txtt/m/n/10 a
+.\T1/txtt/m/n/10 r
+.\T1/txtt/m/n/10 t
+.\T1/txtt/m/n/10 T
+.\T1/txtt/m/n/10 .
+.\T1/txtt/m/n/10 s
+.\T1/txtt/m/n/10 e
+.\T1/txtt/m/n/10 r
+.\T1/txtt/m/n/10 i
+.\T1/txtt/m/n/10 e
+.\T1/txtt/m/n/10 s
+.\T1/txtt/m/n/10 [
+.\T1/txtt/m/n/10 0
+.\T1/txtt/m/n/10 ]
+.\T1/txtt/m/n/10 .
+.\T1/txtt/m/n/10 a
+.\T1/txtt/m/n/10 d
+.\T1/txtt/m/n/10 d
+.\T1/txtt/m/n/10 P
+.\T1/txtt/m/n/10 o
+.\T1/txtt/m/n/10 i
+.\T1/txtt/m/n/10 n
+.\T1/txtt/m/n/10 t
+.\T1/txtt/m/n/10 (
+.\T1/txtt/m/n/10 [
+.\T1/txtt/m/n/10 x
+.\kern0.0
+.\T1/txtt/m/n/10 ,
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 y
+.\T1/txtt/m/n/10 ]
+.\kern0.0
+.\T1/txtt/m/n/10 ,
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 t
+.\T1/txtt/m/n/10 r
+.\T1/txtt/m/n/10 u
+.\T1/txtt/m/n/10 e
+.\kern0.0
+.\T1/txtt/m/n/10 ,
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 f
+.\T1/txtt/m/n/10 a
+.\T1/txtt/m/n/10 l
+.\T1/txtt/m/n/10 s
+.\T1/txtt/m/n/10 e
+.\kern0.0
+.\T1/txtt/m/n/10 ,
+.\penalty 10000
+.\glue(\spaceskip) 5.24998
+.\T1/txtt/m/n/10 t
+.\T1/txtt/m/n/10 r
+.\T1/txtt/m/n/10 u
+.\T1/txtt/m/n/10 e
+.\T1/txtt/m/n/10 )
+.\T1/txtt/m/n/10 ;
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+
+[12]
+<Bilder/Dokubilder/ChargeController1.png, id=61, 1344.02126pt x 655.44875pt>
+File: Bilder/Dokubilder/ChargeController1.png Graphic file (type png)
+<use Bilder/Dokubilder/ChargeController1.png>
+Package luatex.def Info: Bilder/Dokubilder/ChargeController1.png  used on input 
+line 545.
+(luatex.def)             Requested size: 375.57631pt x 183.15434pt.
+<Bilder/Dokubilder/Anlage.jpg, id=62, 5203.44pt x 3468.96pt>
+File: Bilder/Dokubilder/Anlage.jpg Graphic file (type jpg)
+<use Bilder/Dokubilder/Anlage.jpg>
+Package luatex.def Info: Bilder/Dokubilder/Anlage.jpg  used on input line 556.
+(luatex.def)             Requested size: 375.57631pt x 250.36835pt.
+ [13<./Bilder/Dokubilder/ChargeController1.png>] (./DLN.lof)
+\tf@lof=\write4
+
+\openout4 = DLN.lof
+ [14<./Bilder/Dokubilder/Anlage.JPG>] [15
+
+]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+)
+(./code/monitoringCode/monitoringCode.ino
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 10
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+ [16] [17])
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+)
+(./code/monitoringCode/data/index.html [18] [19])
+<Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, id=86, 597.55244pt x 845.0772
+pt>
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf  used 
+on input line 588.
+(luatex.def)             Requested size: 597.55098pt x 845.07513pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf  used 
+on input line 588.
+(luatex.def)             Requested size: 597.55098pt x 845.07513pt.
+<Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, id=89, page=1, 597.55244pt x 
+845.0772pt>
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 1>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+1 used on input line 588.
+(luatex.def)             Requested size: 597.55098pt x 845.07513pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 1>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+1 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+ [20]
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 1>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+1 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 1>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+1 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 1>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+1 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+ [21<./Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf>]
+<Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, id=126, page=2, 597.55244pt x
+ 845.0772pt>
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 2>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+2 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 2>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+2 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 2>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+2 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+ [22<./Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf>]
+<Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, id=132, page=3, 597.55244pt x
+ 845.0772pt>
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 3>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+3 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 3>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+3 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 3>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+3 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+ [23<./Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf>]
+<Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, id=146, page=4, 597.55244pt x
+ 845.0772pt>
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 4>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+4 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 4>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+4 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 4>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+4 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+ [24<./Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf>]
+<Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, id=154, page=5, 597.55244pt x
+ 845.0772pt>
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 5>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+5 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 5>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+5 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 5>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+5 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+ [25<./Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf>]
+<Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, id=177, page=6, 597.55244pt x
+ 845.0772pt>
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 6>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+6 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 6>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+6 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+File: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf Graphic file (type pdf)
+<use Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf, page 6>
+Package luatex.def Info: Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf , page
+6 used on input line 588.
+(luatex.def)             Requested size: 597.57832pt x 845.11382pt.
+ [26<./Quellen/SBC-NodeMCU-ESP32-Anleitung-20200320.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=185, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf  used on input line 589.
+(luatex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf  used on input line 589.
+(luatex.def)             Requested size: 614.29349pt x 794.96806pt.
+<Quellen/ACS712-Datasheet.pdf, id=188, page=1, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 1>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page1 used on input line
+ 589.
+(luatex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 1>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page1 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 1>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page1 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 1>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page1 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 1>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page1 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [27<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=335, page=2, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 2>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page2 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 2>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page2 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 2>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page2 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [28<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=348, page=3, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 3>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page3 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 3>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page3 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 3>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page3 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[29<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=362, page=4, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 4>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page4 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 4>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page4 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 4>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page4 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [30<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=374, page=5, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 5>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page5 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 5>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page5 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 5>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page5 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[31<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=379, page=6, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 6>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page6 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 6>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page6 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 6>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page6 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [32<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=388, page=7, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 7>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page7 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 7>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page7 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 7>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page7 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[33<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=395, page=8, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 8>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page8 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 8>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page8 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 8>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page8 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [34<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=402, page=9, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 9>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page9 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 9>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page9 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 9>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page9 used on input line
+ 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[35<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=469, page=10, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 10>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page10 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 10>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page10 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 10>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page10 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [36<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=495, page=11, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 11>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page11 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 11>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page11 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 11>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page11 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[37<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=501, page=12, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 12>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page12 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 12>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page12 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 12>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page12 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [38<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=519, page=13, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 13>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page13 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 13>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page13 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 13>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page13 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[39<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=552, page=14, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 14>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page14 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 14>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page14 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 14>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page14 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [40<./Quellen/ACS712-Datasheet.pdf>]
+<Quellen/ACS712-Datasheet.pdf, id=563, page=15, 614.295pt x 794.97pt>
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 15>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page15 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 15>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page15 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Quellen/ACS712-Datasheet.pdf Graphic file (type pdf)
+<use Quellen/ACS712-Datasheet.pdf, page 15>
+Package luatex.def Info: Quellen/ACS712-Datasheet.pdf , page15 used on input lin
+e 589.
+(luatex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[41<./Quellen/ACS712-Datasheet.pdf>] (./DLN.aux)
+Package logreq Info: Writing requests to 'DLN.run.xml'.
+
+\openout1 = DLN.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 25237 strings out of 481365
+ 100000,1648299 words of node,token memory allocated
+ 1861 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 5 glue, 167 kern, 1 glyph, 171 attribute, 69 glue_s
+pec, 87 attribute_list, 1 write nodes
+   avail lists: 1:2,2:4338,3:572,4:41,5:1364,6:103,7:4682,8:104,9:2947,10:14,11:
+230
+ 40750 multiletter control sequences out of 65536+600000
+ 241 fonts using 17793491 bytes
+ 58i,22n,80p,10147b,5895s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on DLN.pdf (41 pages, 27834029 bytes).
+
+PDF statistics: 594 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
